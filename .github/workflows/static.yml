@@ -35,6 +35,8 @@ jobs:
         uses: actions/setup-node@v3.6.0
         with:
           node-version: 18
+      - name: NPM Install
+        run: npm ci
       - name: Build Files
         run: npm run build
       - name: Setup Pages
@@ -43,7 +45,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './site'
+          path: "./site"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
