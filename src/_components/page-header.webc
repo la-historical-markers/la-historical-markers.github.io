@@ -1,6 +1,6 @@
-<header class="flex flex-col w-full p-2 text-lg text-white sm:flex-row sm:p-4 rounded-t-md bg-brown">
+<header class="flex flex-row justify-center w-full p-2 text-lg text-white sm:justify-start sm:p-4 rounded-t-md bg-brown">
     <a href="/">
-        <img src="/img/logo.png" class="h-10" />
+        <img alt="A drawn logo depicting a white pelican over the shape of the state of Louisiana in gold" src="/img/logo.png" class="w-10 h-10" />
     </a>
   <a href="/" class="flex flex-col justify-center hover:cursor-pointer">LA Historical Markers</div>
 </header>

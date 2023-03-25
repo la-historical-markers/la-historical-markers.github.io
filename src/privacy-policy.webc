@@ -1,16 +1,15 @@
-<page @title="LAHM: Privacy Policy">
+<standard-page @title="LAHM: Privacy Policy">
   <page-body>
-    <h1 class="text-lg font-semibold">Privacy Policy</h1>
+    <main-heading>Privacy Policy</main-heading>
     <br />
     <p>
-      LA Historical Markers (also known as LAHM) does not collect any
-      information about you or your devices, does not seek to associate any
-      information that is collected with any individual end user, and only
-      requests access to those device permissions which are strictly necessary
-      for the app to function. Where possible, LAHM offers users with options to
-      contribute to the crowd-sourcing of marker details without requiring
-      potentially invasive permissions such as fine location data or camera
-      access.
+      LA Historical Markers (hereafter referred to as LAHM) does not collect any
+      information about you or your devices, does not associate any information
+      that is collected with any end user, and only requests access to those
+      device permissions which are strictly necessary for the app to function.
+      Where possible, LAHM offers users with options to contribute to the
+      crowd-sourcing of marker details without requiring potentially invasive
+      permissions such as fine location data or camera access.
     </p>
     <br />
     <p>
@@ -43,4 +42,4 @@
     </p>
   </page-body>
   <page-footer></page-footer>
-</page>
+</standard-page>

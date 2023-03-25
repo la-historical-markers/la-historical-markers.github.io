@@ -1,5 +1,9 @@
-<page @title="LAHM: LA Historical Markers">
+<standard-page webc:nokeep @title="LAHM: LA Historical Markers">
   <page-body>
+    <main-heading custom-class="text-center"
+      >Welcome to LA Historical Markers!</main-heading
+    >
+    <br />
     <div class="flex justify-center rounded-xl">
       <img
         src="/img/screenshot.png"
@@ -14,15 +18,14 @@
         class="hidden mx-6 border-2 border-black shadow-xl md:block rounded-xl h-96"
       />
     </div>
-    <h1 class="text-lg font-semibold">Welcome to LA Historical Markers!</h1>
     <br />
     <p>
-      We created the LAHM app in order to discover and promote the history of
-      the State of Louisiana. Dating back to at least the 1950's, the Louisiana
-      Historical Markers Program allows private individuals and groups to
-      nominate and commission a marker commemorating events that are important
-      to the state, nation or region. Because of the long history of this
-      program, the location and condition of many of these markers are unknown.
+      Dating back to at least the 1950's, the Louisiana Historical Markers
+      Program allows private individuals and groups to nominate and commission a
+      marker commemorating events that are important to the state, nation or
+      region. Because of the long history of this program, the location and
+      condition of many of these markers are unknown. We created the LAHM app in
+      order to discover and promote the history of the State of Louisiana.
     </p>
     <br />
     <p>
@@ -57,4 +60,4 @@
     </p>
   </page-body>
   <page-footer></page-footer>
-</page>
+</standard-page>
