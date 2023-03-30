@@ -1,0 +1,13 @@
+<script webc:keep>
+  console.log(config.API_URL);
+  async function load() {
+    const count = await fetch(config.API_URL + "api/markers/count");
+    console.log(count);
+  }
+</script>
+<div
+  onload="load()"
+  class="hidden max-w-xs p-2 m-2 text-xs rounded-sm sm:block bg-gold"
+>
+  <span>0 markers</span>
+</div>
