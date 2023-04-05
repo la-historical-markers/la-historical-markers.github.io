@@ -1,5 +1,4 @@
 const pluginWebc = require("@11ty/eleventy-plugin-webc");
-require("dotenv/config");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./styles/tailwind.config.js");
